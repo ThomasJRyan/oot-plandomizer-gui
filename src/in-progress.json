@@ -1,0 +1,234 @@
+[
+    {
+        "name": "Kokiri Sword Chest",
+        "type": "Chest",
+        "latlng": [
+            37.75,
+            580.875
+        ]
+    },
+    {
+        "name": "Mido Chest Top Left",
+        "type": "Chest",
+        "latlng": [
+            89.875,
+            576
+        ]
+    },
+    {
+        "name": "Mido Chest Top Right",
+        "type": "Chest",
+        "latlng": [
+            89.875,
+            580.625
+        ]
+    },
+    {
+        "name": "Mido Chest Bottom Left",
+        "type": "Chest",
+        "latlng": [
+            85.375,
+            575.75
+        ]
+    },
+    {
+        "name": "Mido Chest Bottom Right",
+        "type": "Chest",
+        "latlng": [
+            85,
+            580.625
+        ]
+    },
+    {
+        "name": "Shield Grave Chest",
+        "type": "Chest",
+        "latlng": [
+            670.875,
+            856.75
+        ]
+    },
+    {
+        "name": "Heart Piece Grave Chest",
+        "type": "Chest",
+        "latlng": [
+            664.875,
+            866.625
+        ]
+    },
+    {
+        "name": "Composer Grave Chest",
+        "type": "Chest",
+        "latlng": [
+            672,
+            880.75
+        ]
+    },
+    {
+        "name": "Death Mountain Bombable Chest",
+        "type": "Chest",
+        "latlng": [
+            667,
+            596.25
+        ]
+    },
+    {
+        "name": "Goron City Leftmost Maze Chest",
+        "type": "Chest",
+        "latlng": [
+            834.375,
+            558.125
+        ]
+    },
+    {
+        "name": "Goron City Right Maze Chest",
+        "type": "Chest",
+        "latlng": [
+            834.75,
+            565
+        ]
+    },
+    {
+        "name": "Goron City Left Maze Chest",
+        "type": "Chest",
+        "latlng": [
+            834.25,
+            562.375
+        ]
+    },
+    {
+        "name": "Zoras Domain Torch Run",
+        "type": "Chest",
+        "latlng": [
+            520.625,
+            783.125
+        ]
+    },
+    {
+        "name": "Hookshot Chest",
+        "type": "Chest",
+        "latlng": [
+            681.75,
+            839.25
+        ]
+    },
+    {
+        "name": "Gerudo Valley Hammer Rocks Chest",
+        "type": "Chest",
+        "latlng": [
+            474.75,
+            381.75
+        ]
+    },
+    {
+        "name": "Gerudo Fortress Rooftop Chest",
+        "type": "Chest",
+        "latlng": [
+            491.25,
+            283
+        ]
+    },
+    {
+        "name": "Haunted Wasteland Structure Chest",
+        "type": "Chest",
+        "latlng": [
+            496.5,
+            165.75
+        ]
+    },
+    {
+        "name": "Redead Grotto Chest",
+        "type": "Chest",
+        "latlng": [
+            684.25,
+            742.5
+        ]
+    },
+    {
+        "name": "Wolfos Grotto Chest",
+        "type": "Chest",
+        "latlng": [
+            262.125,
+            615.125
+        ]
+    },
+    {
+        "name": "Field West Castle Town Grotto Chest",
+        "type": "Chest",
+        "latlng": [
+            523.4375,
+            520.4375
+        ]
+    },
+    {
+        "name": "Remote Southern Grotto Chest",
+        "type": "Chest",
+        "latlng": [
+            458,
+            527.375
+        ]
+    },
+    {
+        "name": "Field Near Lake Outside Fence Grotto Chest",
+        "type": "Chest",
+        "latlng": [
+            450.25,
+            508.5
+        ]
+    },
+    {
+        "name": "Kakariko Back Grotto Chest",
+        "type": "Chest",
+        "latlng": [
+            699.375,
+            761.875
+        ]
+    },
+    {
+        "name": "Zora River Plateau Open Grotto Chest",
+        "type": "Chest",
+        "latlng": [
+            481.5,
+            663.375
+        ]
+    },
+    {
+        "name": "Kokiri Forest Storms Grotto Chest",
+        "type": "Chest",
+        "latlng": [
+            98,
+            578
+        ]
+    },
+    {
+        "name": "Lost Woods Generic Grotto Chest",
+        "type": "Chest",
+        "latlng": [
+            177.125,
+            627.25
+        ]
+    },
+    {
+        "name": "Mountain Storms Grotto Chest",
+        "type": "Chest",
+        "latlng": [
+            678.875,
+            596.5
+        ]
+    },
+    {
+        "name": "Top of Crater Grotto Chest",
+        "type": "Chest",
+        "latlng": [
+            888.375,
+            595.375
+        ]
+    },
+    {
+        "name": "Treasure Chest Game",
+        "type": "Chest",
+        "latlng": [
+            544.5,
+            523.875
+        ]
+    }
+]
