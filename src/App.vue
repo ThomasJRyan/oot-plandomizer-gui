@@ -6,38 +6,53 @@
       <l-map
         ref="map"
         :min-zoom="minZoom"
-        :zoom="maps[currentMap].zoom"
+        :zoom="minZoom"
         :crs="crs"
-        :center="[500, 500]"
-        :maxBounds="[100, 100]"
+        :center="maps[currentMap].center"
+        :bounds="maps[currentMap].bounds"
         style="background-color: black;"
         @click="handleClick"
       >
-        <l-image-overlay
-          :url="maps[currentMap].url"
-          :bounds="bounds"
-        />
+        <!-- <l-image-overlay
+          :url="maps['Overworld'].url"
+          :bounds="maps['Overworld'].bounds"
+          v-if="currentMap == 'Overworld'"
+        /> -->
+
+        <l-image-overlay v-for="(data, key) in maps" v-bind:key="key" :url="data.url" :bounds="data.bounds" v-if="currentMap == key"/>
         <l-marker
-          v-for="point in points"
+          v-for="(point, index) in points"
           :key="point.name"
           :lat-lng="point.latlng"
           :draggable="true"
-          v-on:update:latLng="updateLatLng($event, point.name)"
+          :icon="checkTypes[point.type]"
+          v-on:update:latLng="updateLatLng($event, point.name, index)"
+          v-if="point.map == currentMap"
         >
-          <!-- <l-popup :content="point.name" /> -->
+          <l-popup :content="'<h3>' + point.name + '</h3>'" />
         </l-marker>
         <!-- <l-polyline :lat-lngs="travel" /> -->
       </l-map>
     </div>
 
+    <div class="pages">
+
+    </div>
+
     <div class="item-pool">
-      <button>
-        <
-      </button>
+      
     </div>
 
     <div class="dungeon-maps">
-      <button v-for="(data, name) in maps" v-bind:key="name" @click="currentMap = name">{{name}}</button>
+      <button 
+      v-for="(data, name) in maps" 
+      v-bind:key="name" 
+      @click="currentMap = name" 
+      v-bind:class="{buttonActive: currentMap == name}" 
+      v-bind:style="{color: data.color, background: 'linear-gradient(90deg, rgba(40,40,40,1),' + data.backgroundColor + ' 100%)'}">
+        <img v-bind:src="data.icon" alt=""/>
+        {{name}}
+      </button>
     </div>
 
     <div class="point-maker">
@@ -49,10 +64,11 @@
 </template>
 
 <script>
-import { CRS } from "leaflet";
+import { CRS, icon } from "leaflet";
 import { LMap, LImageOverlay, LMarker, LPopup, LPolyline } from "vue2-leaflet";
 
 import Locations from './Locations-Mine.json'
+import InProgress from './in-progress.json'
 // console.log(JSON.stringify(Locations))
 
 export default {
@@ -65,20 +81,22 @@ export default {
   },
   methods: {
     handleClick(event) {
-      // console.log(event.latlng)
+      console.log(this.$refs.map)
       this.lastLatLng = [event.latlng.lat, event.latlng.lng]
       this.points.push({
         name: this.locations[this.locCount].name,
         type: this.locations[this.locCount].type,
+        map: this.currentMap,
         latlng: [event.latlng['lat'], event.latlng['lng']],
         // lng: event.latlng['lng'], 
         // lat: event.latlng['lat']
         })
       // console.log(this.points)
     },
-    updateLatLng(event, name){
+    updateLatLng(event, name, index){
       // console.log(event, name)
       this.lastLatLng = [event.lat, event.lng]
+      // this.points[index].latlng = [event.lat, event.lng]
     },
     nextLoc(){
       // this.locations[this.locCount].latlng = this.lastLatLng
@@ -87,6 +105,7 @@ export default {
         name: this.locations[this.locCount].name,
         type: this.locations[this.locCount].type,
         latlng: this.lastLatLng,
+        map: this.currentMap,
         // lng: event.latlng['lng'], 
         // lat: event.latlng['lat']
         })
@@ -94,33 +113,73 @@ export default {
     },
     printData(){
       console.log(JSON.stringify(this.locationData))
+      // console.log(JSON.stringify(this.points))
     }
   },
   data() {
     return {
       lastLatLng: null,
       // url: "./Maps/Overworld.png",
-      bounds: [[-26.5, -25], [1021.5, 1023]],
+      // bounds: [[-26.5, -25], [1021.5, 1023]],
+      bounds: [[0, 0], [1000, 1000]],
       minZoom: -3,
       crs: CRS.Simple,
-      points: [{"name":"Kokiri Sword Chest","type":"Chest","latlng":[37.75,581]},{"name":"Mido Chest Top Left","type":"Chest","latlng":[89.8125,577]},{"name":"Mido Chest Top Right","type":"Chest","latlng":[90.125,580.0625]},{"name":"Mido Chest Bottom Left","type":"Chest","latlng":[86.75,577.125]},{"name":"Mido Chest Bottom Right","type":"Chest","latlng":[86.8125,579.8125]}],
+      points: InProgress,
       locations: Locations,
-      locCount: 0,
+      locCount: InProgress.length,
       locationData: [],
       currentMap: "Overworld",
+      checkTypes: {
+        "Chest": icon({ iconUrl: "./Icons/Chest.png", iconSize: [24, 24], iconAnchor: [12, 12]}),
+        "Cutscene": icon({ iconUrl: "./Icons/Cutscene.png", iconSize: [24, 24], iconAnchor: [12, 12]}),
+        "Song": icon({ iconUrl: "./Icons/Song.png", iconSize: [24, 24], iconAnchor: [12, 12]}),
+        "NPC": icon({ iconUrl: "./Icons/NPC.png", iconSize: [24, 24], iconAnchor: [12, 12]}),
+        "Collectable": icon({ iconUrl: "./Icons/Collectable.png", iconSize: [24, 24], iconAnchor: [12, 12]}),
+        "Event": icon({ iconUrl: "./Icons/Forest.png", iconSize: [24, 24], iconAnchor: [12, 12]}),
+        "Drop": icon({ iconUrl: "./Icons/Forest.png", iconSize: [24, 24], iconAnchor: [12, 12]}),
+        "Boss": icon({ iconUrl: "./Icons/Forest.png", iconSize: [24, 24], iconAnchor: [12, 12]}),
+        "BossHeart": icon({ iconUrl: "./Icons/BossHeart.png", iconSize: [24, 24], iconAnchor: [12, 12]}),
+        "GS Token": icon({ iconUrl: "./Icons/GS Token.png", iconSize: [24, 24], iconAnchor: [12, 12]}),
+        "Shop": icon({ iconUrl: "./Icons/Forest.png", iconSize: [24, 24], iconAnchor: [12, 12]}),
+        "GrottoNPC": icon({ iconUrl: "./Icons/Forest.png", iconSize: [24, 24], iconAnchor: [12, 12]}),
+        "GossipStone": icon({ iconUrl: "./Icons/Forest.png", iconSize: [24, 24], iconAnchor: [12, 12]}),
+        
+      },
+      // checkTypes: {
+      //   "Chest": icon({ iconUrl: "./Icons/Chest.png", iconSize: [24, 24], iconAnchor: [12, 12]}),
+      //   "Cutscene": icon({ iconUrl: "./Icons/Cutscene.png", iconSize: [24, 24], iconAnchor: [12, 12]}),
+      //   "Song": icon({ iconUrl: "./Icons/Song.png", iconSize: [24, 24], iconAnchor: [12, 12]}),
+      //   "NPC": icon({ iconUrl: "./Icons/Forest.png", iconSize: [24, 24], iconAnchor: [12, 12]}),
+      //   "Collectable": icon({ iconUrl: "./Icons/Jabu.png", iconSize: [24, 24], iconAnchor: [12, 12]}),
+      //   "Event": icon({ iconUrl: "./Icons/Forest.png", iconSize: [24, 24], iconAnchor: [12, 12]}),
+      //   "Drop": icon({ iconUrl: "./Icons/Forest.png", iconSize: [24, 24], iconAnchor: [12, 12]}),
+      //   "Boss": icon({ iconUrl: "./Icons/Forest.png", iconSize: [24, 24], iconAnchor: [12, 12]}),
+      //   "BossHeart": icon({ iconUrl: "./Icons/BossHeart.png", iconSize: [24, 24], iconAnchor: [12, 12]}),
+      //   "GS Token": icon({ iconUrl: "./Icons/GS Token.png", iconSize: [24, 24], iconAnchor: [12, 12]}),
+      //   "Shop": icon({ iconUrl: "./Icons/Forest.png", iconSize: [24, 24], iconAnchor: [12, 12]}),
+      //   "GrottoNPC": icon({ iconUrl: "./Icons/Forest.png", iconSize: [24, 24], iconAnchor: [12, 12]}),
+      //   "GossipStone": icon({ iconUrl: "./Icons/Forest.png", iconSize: [24, 24], iconAnchor: [12, 12]}),
+      //   "Saria": icon({ iconUrl: "./Icons/Saria.png", iconSize: [24, 24], iconAnchor: [12, 12]}),
+      //   "Zelda": icon({ iconUrl: "./Icons/Zelda.png", iconSize: [24, 24], iconAnchor: [12, 12]}),
+      //   "GreatFairy": icon({ iconUrl: "./Icons/GreatFairy.png", iconSize: [24, 24], iconAnchor: [12, 12]}),
+      //   "HeartPiece": icon({ iconUrl: "./Icons/HeartPiece.png", iconSize: [24, 24], iconAnchor: [12, 12]}),
+        
+      // },
       maps: {
-        "Overworld": {url: "./Maps/Overworld.png", zoom: 0, center: [500, 500]},
-        "Deku Tree": {url: "./Maps/Deku.png", zoom: -1, center: [500, 500]},
-        "Dodonogo's Cavern": {url: "./Maps/Dodongo.png", zoom: 0, center: [500, 500]},
-        "Jabu Jabu": {url: "./Maps/Jabu.png", zoom: 0, center: [500, 500]},
-        "Forest Temple": {url: "./Maps/Forest.png", zoom: 0, center: [500, 500]},
-        "Fire Temple": {url: "./Maps/Fire.png", zoom: -1, center: [500, 500]},
-        "Water Temple": {url: "./Maps/Water.png", zoom: -1, center: [500, 500]},
-        "Shadow Temple": {url: "./Maps/Shadow.png", zoom: -1, center: [500, 500]},
-        "Spirit Temple": {url: "./Maps/Spirit.png", zoom: -1, center: [500, 500]},
-        "BotW": {url: "./Maps/BotW.png", zoom: 0, center: [500, 500]},
-        "Ice Cavern": {url: "./Maps/Cavern.png", zoom: 0, center: [500, 500]},
-        "Ganon's Tower": {url: "./Maps/Ganon.png", zoom: 0, center: [500, 500]},
+        "Overworld": {url: "./Maps/Overworld.png", zoom: 0, bounds: [[0,0], [7260, 7860]], center: [3630, 3930], backgroundColor: '#FFFFFF', icon: './Icons/Overworld.png', color: "#000000"},
+        "Deku Tree": {url: "./Maps/Deku.png", zoom: 0, bounds: [[0,0], [6150, 2940]], center: [3075, 1470], backgroundColor: '#00FF00', icon: './Icons/Deku.png', color: "#000000"},
+        "Dodonogo's Cavern": {url: "./Maps/Dodongo.png", zoom: 0, bounds: [[0,0], [3310, 3610]], center: [1655, 1805], backgroundColor: '#FF0000', icon: './Icons/Dodongo.png', color: "#000000"},
+        "Jabu Jabu": {url: "./Maps/Jabu.png", zoom: 0, bounds: [[0,0], [4790, 2830]], center: [2395, 1415], backgroundColor: '#0000FF', icon: './Icons/Jabu.png', color: "#FFFFFF"},
+        "Forest Temple": {url: "./Maps/Forest.png", zoom: 0, bounds: [[0,0], [5990, 3250]], center: [2995, 1625], backgroundColor: '#00FF00', icon: './Icons/Forest.png', color: "#000000"},
+        "Fire Temple": {url: "./Maps/Fire.png", zoom: 0, bounds: [[0,0], [8000, 3870]], center: [4000, 1935], backgroundColor: '#FF0000', icon: './Icons/Fire.png', color: "#000000"},
+        "Water Temple": {url: "./Maps/Water.png", zoom: 0, bounds: [[0,0], [7040, 3880]], center: [3520, 1940], backgroundColor: '#0000FF', icon: './Icons/Water.png', color: "#FFFFFF"},
+        "Shadow Temple": {url: "./Maps/Shadow.png", zoom: 0, bounds: [[0,0], [4370, 2990]], center: [2185, 1495], backgroundColor: '#8000FF', icon: './Icons/Shadow.png', color: "#000000"},
+        "Spirit Temple": {url: "./Maps/Spirit.png", zoom: 0, bounds: [[0,0], [5060, 2730]], center: [2530, 1365], backgroundColor: '#FF8000', icon: './Icons/Spirit.png', color: "#000000"},
+        "BotW": {url: "./Maps/BotW.png", zoom: 0, bounds: [[0,0], [2670, 2210]], center: [1335, 1105], backgroundColor: '#808080', icon: './Icons/BotW.png', color: "#000000"},
+        "Ice Cavern": {url: "./Maps/Cavern.png", zoom: 0, bounds: [[0,0], [2470, 2500]], center: [1235, 1250], backgroundColor: '#8080FF', icon: './Icons/Cavern.png', color: "#000000"},
+        "GTG": {url: "./Maps/GTG.png", zoom: 0, bounds: [[0,0], [2790, 2520]], center: [1395, 1260], backgroundColor: '#FF8000', icon: './Icons/GTG.png', color: "#000000"},
+        "Ganon's Tower": {url: "./Maps/Ganon.png", zoom: 0, bounds: [[0,0], [3770, 2150]], center: [1885, 1075], backgroundColor: '#000000', icon: './Icons/Ganon.png', color: "#FFFFFF"},
+        "Shops": {url: "./Maps/Ganon.png", zoom: 0, bounds: [[0,0], [3770, 2150]], center: [1885, 1075], backgroundColor: '#FFFFFF', icon: './Icons/Rupee.png', color: "#000000"},
       },
       // points: [
       //   {name: 'test', latlng: [500, 500], lat: 500, lng: 500}
@@ -135,7 +194,7 @@ export default {
     };
   },
   mounted() {
-    this.$refs.map.mapObject.setView([500, 500], 1);
+    this.$refs.map.mapObject.setView([3930, 3630], 1);
     window.addEventListener('keyup', (event) => {
       if (event.keyCode == 32) {
         this.$refs.nextData.click()
@@ -157,6 +216,7 @@ export default {
     left: 0;
     width: 100vw;
     height: 100vh;
+    overflow: hidden;
   }
 
   .overworld-maps {
@@ -193,25 +253,50 @@ export default {
 
   .dungeon-maps {
     position: absolute;
-    right: 0;
+    right: 2.5vw;
     top: 0;
     background-color: green;
-    width: 15vw;
+    width: 0vw;
     height: 100vh;
     z-index: 9999;
     display: flex;
     flex-direction: column;
+    /* overflow: hidden; */
   }
 
   .dungeon-maps button {
     height: 100%;
-    width: 100%;
+    width: 15vw;
     border: 2px solid black;
-    background: linear-gradient(90deg, rgba(6,36,0,1) 0%, rgba(17,121,9,1) 41%, rgba(0,255,64,1) 100%);
+    border-radius: 45px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 2vmin;
+    transform: translateX(0vw);
+    background: linear-gradient(90deg, rgba(40,40,40,1), rgba(255,255,255,1) 100%);
+    transition: all 0.5s;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .dungeon-maps button img {
+    position: relative;
+    width: 10%;
+    margin-right: 5%;
   }
 
   .dungeon-maps button:hover {
-    background: linear-gradient(90deg, rgba(1,8,0,1) 0%, rgba(12,84,6,1) 41%, rgba(0,159,40,1) 100%);
+    /* background: linear-gradient(90deg, rgba(1,8,0,1) 0%, rgba(12,84,6,1) 41%, rgba(0,159,40,1) 100%); */
+    transform: translateX(-10vw);
+  }
+
+  .dungeon-maps button:focus {
+    outline: 0;
+  }
+
+  .buttonActive {
+    border-color: white!important;
   }
 
   .point-maker {
@@ -226,7 +311,7 @@ export default {
     justify-content: space-between;
   }
 
-  .leaflet-container img {
-max-width: none !important;
-}
+  .leaflet-bottom {
+    display: none!important;
+  }
 </style>

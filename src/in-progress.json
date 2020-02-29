@@ -3,232 +3,3294 @@
         "name": "Kokiri Sword Chest",
         "type": "Chest",
         "latlng": [
-            37.75,
-            580.875
-        ]
+            446,
+            4545.5
+        ],
+        "map": "Overworld"
     },
     {
         "name": "Mido Chest Top Left",
         "type": "Chest",
         "latlng": [
-            89.875,
-            576
-        ]
+            805,
+            4515.5
+        ],
+        "map": "Overworld"
     },
     {
         "name": "Mido Chest Top Right",
         "type": "Chest",
         "latlng": [
-            89.875,
-            580.625
-        ]
+            805,
+            4535
+        ],
+        "map": "Overworld"
     },
     {
         "name": "Mido Chest Bottom Left",
         "type": "Chest",
         "latlng": [
-            85.375,
-            575.75
-        ]
+            785.5,
+            4516
+        ],
+        "map": "Overworld"
     },
     {
         "name": "Mido Chest Bottom Right",
         "type": "Chest",
         "latlng": [
-            85,
-            580.625
-        ]
+            786.5,
+            4535.5
+        ],
+        "map": "Overworld"
     },
     {
         "name": "Shield Grave Chest",
         "type": "Chest",
         "latlng": [
-            670.875,
-            856.75
-        ]
+            4819,
+            6613
+        ],
+        "map": "Overworld"
     },
     {
         "name": "Heart Piece Grave Chest",
         "type": "Chest",
         "latlng": [
-            664.875,
-            866.625
-        ]
+            4792,
+            6689
+        ],
+        "map": "Overworld"
     },
     {
         "name": "Composer Grave Chest",
         "type": "Chest",
         "latlng": [
-            672,
-            880.75
-        ]
+            4831,
+            6762
+        ],
+        "map": "Overworld"
     },
     {
         "name": "Death Mountain Bombable Chest",
         "type": "Chest",
         "latlng": [
-            667,
-            596.25
-        ]
+            4810,
+            4656
+        ],
+        "map": "Overworld"
     },
     {
         "name": "Goron City Leftmost Maze Chest",
         "type": "Chest",
         "latlng": [
-            834.375,
-            558.125
-        ]
+            5964,
+            4370
+        ],
+        "map": "Overworld"
     },
     {
         "name": "Goron City Right Maze Chest",
         "type": "Chest",
         "latlng": [
-            834.75,
-            565
-        ]
+            5967,
+            4430
+        ],
+        "map": "Overworld"
     },
     {
         "name": "Goron City Left Maze Chest",
         "type": "Chest",
         "latlng": [
-            834.25,
-            562.375
-        ]
+            5968,
+            4414
+        ],
+        "map": "Overworld"
     },
     {
         "name": "Zoras Domain Torch Run",
         "type": "Chest",
         "latlng": [
-            520.625,
-            783.125
-        ]
+            3787,
+            6059
+        ],
+        "map": "Overworld"
     },
     {
         "name": "Hookshot Chest",
         "type": "Chest",
         "latlng": [
-            681.75,
-            839.25
-        ]
+            4930.5,
+            6542.5
+        ],
+        "map": "Overworld"
     },
     {
         "name": "Gerudo Valley Hammer Rocks Chest",
         "type": "Chest",
         "latlng": [
-            474.75,
-            381.75
-        ]
+            3480,
+            3017.5
+        ],
+        "map": "Overworld"
     },
     {
         "name": "Gerudo Fortress Rooftop Chest",
         "type": "Chest",
         "latlng": [
-            491.25,
-            283
-        ]
+            3589,
+            2309.5
+        ],
+        "map": "Overworld"
     },
     {
         "name": "Haunted Wasteland Structure Chest",
         "type": "Chest",
         "latlng": [
-            496.5,
-            165.75
-        ]
+            3622,
+            1404
+        ],
+        "map": "Overworld"
     },
     {
         "name": "Redead Grotto Chest",
         "type": "Chest",
         "latlng": [
-            684.25,
-            742.5
-        ]
+            4931,
+            5760
+        ],
+        "map": "Overworld"
     },
     {
         "name": "Wolfos Grotto Chest",
         "type": "Chest",
         "latlng": [
-            262.125,
-            615.125
-        ]
+            1992.5,
+            4801.5
+        ],
+        "map": "Overworld"
     },
     {
         "name": "Field West Castle Town Grotto Chest",
         "type": "Chest",
         "latlng": [
-            523.4375,
-            520.4375
-        ]
+            3808.5,
+            4090
+        ],
+        "map": "Overworld"
     },
     {
         "name": "Remote Southern Grotto Chest",
         "type": "Chest",
         "latlng": [
-            458,
-            527.375
-        ]
+            3347.5,
+            4161
+        ],
+        "map": "Overworld"
     },
     {
         "name": "Field Near Lake Outside Fence Grotto Chest",
         "type": "Chest",
         "latlng": [
-            450.25,
-            508.5
-        ]
+            3303,
+            3999.5
+        ],
+        "map": "Overworld"
     },
     {
         "name": "Kakariko Back Grotto Chest",
         "type": "Chest",
         "latlng": [
-            699.375,
-            761.875
-        ]
+            5031.5,
+            5900.5
+        ],
+        "map": "Overworld"
     },
     {
         "name": "Zora River Plateau Open Grotto Chest",
         "type": "Chest",
         "latlng": [
-            481.5,
-            663.375
-        ]
+            3519.5,
+            5162
+        ],
+        "map": "Overworld"
     },
     {
         "name": "Kokiri Forest Storms Grotto Chest",
         "type": "Chest",
         "latlng": [
-            98,
-            578
-        ]
+            866.5,
+            4520.5
+        ],
+        "map": "Overworld"
     },
     {
         "name": "Lost Woods Generic Grotto Chest",
         "type": "Chest",
         "latlng": [
-            177.125,
-            627.25
-        ]
+            1391,
+            4964
+        ],
+        "map": "Overworld"
     },
     {
         "name": "Mountain Storms Grotto Chest",
         "type": "Chest",
         "latlng": [
-            678.875,
-            596.5
-        ]
+            4925,
+            4663
+        ],
+        "map": "Overworld"
     },
     {
         "name": "Top of Crater Grotto Chest",
         "type": "Chest",
         "latlng": [
-            888.375,
-            595.375
-        ]
+            6333,
+            4640
+        ],
+        "map": "Overworld"
     },
     {
         "name": "Treasure Chest Game",
         "type": "Chest",
         "latlng": [
-            544.5,
-            523.875
-        ]
+            4015.5,
+            4114.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Zelda",
+        "type": "Cutscene",
+        "latlng": [
+            4156.25,
+            4315.25
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Gift from Saria",
+        "type": "Cutscene",
+        "latlng": [
+            750,
+            4345
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Zoras Fountain Fairy Reward",
+        "type": "Cutscene",
+        "latlng": [
+            3543,
+            6975
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Hyrule Castle Fairy Reward",
+        "type": "Cutscene",
+        "latlng": [
+            4624,
+            2924
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Desert Colossus Fairy Reward",
+        "type": "Cutscene",
+        "latlng": [
+            3718,
+            870
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Mountain Summit Fairy Reward",
+        "type": "Cutscene",
+        "latlng": [
+            5257,
+            4657
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Crater Fairy Reward",
+        "type": "Cutscene",
+        "latlng": [
+            6429,
+            4410
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Ganons Castle Fairy Reward",
+        "type": "Cutscene",
+        "latlng": [
+            5475,
+            2933
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Sheik Forest Song",
+        "type": "Song",
+        "latlng": [
+            2604,
+            4829
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Sheik in Crater",
+        "type": "Song",
+        "latlng": [
+            6664,
+            4549.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Sheik in Ice Cavern",
+        "type": "Song",
+        "latlng": [
+            1064,
+            1235
+        ],
+        "map": "Ice Cavern"
+    },
+    {
+        "name": "Sheik at Colossus",
+        "type": "Song",
+        "latlng": [
+            3556,
+            512.75
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Sheik in Kakariko",
+        "type": "Song",
+        "latlng": [
+            4925.5,
+            5882
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Sheik at Temple",
+        "type": "Song",
+        "latlng": [
+            4157.25,
+            4430
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Impa at Castle",
+        "type": "Song",
+        "latlng": [
+            3796,
+            4150
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Song from Malon",
+        "type": "Song",
+        "latlng": [
+            5015,
+            3430
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Song from Saria",
+        "type": "Song",
+        "latlng": [
+            2664,
+            4870
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Song from Composer Grave",
+        "type": "Song",
+        "latlng": [
+            4832,
+            6782.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Song from Ocarina of Time",
+        "type": "Song",
+        "latlng": [
+            3819.25,
+            4169.25
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Song at Windmill",
+        "type": "Song",
+        "latlng": [
+            4901.5,
+            6010.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Malon Egg",
+        "type": "NPC",
+        "latlng": [
+            4560,
+            2617
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Zeldas Letter",
+        "type": "NPC",
+        "latlng": [
+            4887,
+            2508
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Darunias Joy",
+        "type": "NPC",
+        "latlng": [
+            5999,
+            4679
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Diving Minigame",
+        "type": "NPC",
+        "latlng": [
+            3806.5,
+            6068.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Child Fishing",
+        "type": "NPC",
+        "latlng": [
+            2486.5,
+            3464
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Adult Fishing",
+        "type": "NPC",
+        "latlng": [
+            2465,
+            3472
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Diving in the Lab",
+        "type": "NPC",
+        "latlng": [
+            2470.25,
+            3135.25
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Link the Goron",
+        "type": "NPC",
+        "latlng": [
+            5640,
+            4570
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "King Zora Thawed",
+        "type": "NPC",
+        "latlng": [
+            3941,
+            6207
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Bombchu Bowling Bomb Bag",
+        "type": "NPC",
+        "latlng": [
+            4064,
+            4099.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Bombchu Bowling Piece of Heart",
+        "type": "NPC",
+        "latlng": [
+            4064,
+            4087
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Bombchu Bowling Bombchus",
+        "type": "NPC",
+        "latlng": [
+            4064,
+            4074
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Dog Lady",
+        "type": "NPC",
+        "latlng": [
+            4015.5,
+            4061
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Skull Kid",
+        "type": "NPC",
+        "latlng": [
+            1303,
+            4823
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Ocarina Memory Game",
+        "type": "NPC",
+        "latlng": [
+            1256,
+            5016
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "10 Gold Skulltula Reward",
+        "type": "NPC",
+        "latlng": [
+            4848.25,
+            5714.25
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "20 Gold Skulltula Reward",
+        "type": "NPC",
+        "latlng": [
+            4848.75,
+            5726.25
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "30 Gold Skulltula Reward",
+        "type": "NPC",
+        "latlng": [
+            4849.25,
+            5738.75
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "40 Gold Skulltula Reward",
+        "type": "NPC",
+        "latlng": [
+            4849.25,
+            5750.25
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "50 Gold Skulltula Reward",
+        "type": "NPC",
+        "latlng": [
+            4849.25,
+            5762.75
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Man on Roof",
+        "type": "NPC",
+        "latlng": [
+            4986.5,
+            5867.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Magic Bean Salesman",
+        "type": "NPC",
+        "latlng": [
+            3577,
+            5010
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Frog Ocarina Game",
+        "type": "NPC",
+        "latlng": [
+            3713,
+            5254
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Frogs in the Rain",
+        "type": "NPC",
+        "latlng": [
+            3713.5,
+            5268
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Horseback Archery 1000 Points",
+        "type": "NPC",
+        "latlng": [
+            3370,
+            2591
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Horseback Archery 1500 Points",
+        "type": "NPC",
+        "latlng": [
+            3346,
+            2591
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Child Shooting Gallery",
+        "type": "NPC",
+        "latlng": [
+            4115,
+            4119.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Adult Shooting Gallery",
+        "type": "NPC",
+        "latlng": [
+            4853,
+            5839.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Target in Woods",
+        "type": "NPC",
+        "latlng": [
+            1308,
+            5015
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Deku Theater Skull Mask",
+        "type": "NPC",
+        "latlng": [
+            1494,
+            4881
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Deku Theater Mask of Truth",
+        "type": "NPC",
+        "latlng": [
+            1484,
+            4898
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Anju as Adult",
+        "type": "NPC",
+        "latlng": [
+            4782.5,
+            5885.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Biggoron",
+        "type": "NPC",
+        "latlng": [
+            5156,
+            4789
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Anjus Chickens",
+        "type": "NPC",
+        "latlng": [
+            4777,
+            5892.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Talons Chickens",
+        "type": "NPC",
+        "latlng": [
+            5243.5,
+            3538.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "10 Big Poes",
+        "type": "NPC",
+        "latlng": [
+            3882,
+            4182.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Rolling Goron as Child",
+        "type": "NPC",
+        "latlng": [
+            5860,
+            4622
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Underwater Bottle",
+        "type": "NPC",
+        "latlng": [
+            2429,
+            3267
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Lake Hylia Sun",
+        "type": "NPC",
+        "latlng": [
+            2204,
+            3395
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Gerudo Fortress Membership Card",
+        "type": "NPC",
+        "latlng": [
+            3493,
+            2258.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Ocarina of Time",
+        "type": "NPC",
+        "latlng": [
+            3819.25,
+            4180.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Haunted Wasteland Bombchu Salesman",
+        "type": "NPC",
+        "latlng": [
+            3447,
+            1371
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Impa House Freestanding PoH",
+        "type": "Collectable",
+        "latlng": [
+            4726.5,
+            5821.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Tektite Grotto Freestanding PoH",
+        "type": "Collectable",
+        "latlng": [
+            3747.5,
+            3946.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Windmill Freestanding PoH",
+        "type": "Collectable",
+        "latlng": [
+            4930.5,
+            6010
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Dampe Race Freestanding PoH",
+        "type": "Collectable",
+        "latlng": [
+            4930.5,
+            6553.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Lon Lon Tower Freestanding PoH",
+        "type": "Collectable",
+        "latlng": [
+            4808.5,
+            3270
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Graveyard Freestanding PoH",
+        "type": "Collectable",
+        "latlng": [
+            4905.5,
+            6484
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Gravedigging Tour",
+        "type": "Collectable",
+        "latlng": [
+            4810.5,
+            6580.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Zora River Lower Freestanding PoH",
+        "type": "Collectable",
+        "latlng": [
+            3709.5,
+            5170
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Zora River Upper Freestanding PoH",
+        "type": "Collectable",
+        "latlng": [
+            3773,
+            5621.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Lake Hylia Freestanding PoH",
+        "type": "Collectable",
+        "latlng": [
+            2462.5,
+            3146.75
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Zoras Fountain Iceberg Freestanding PoH",
+        "type": "Collectable",
+        "latlng": [
+            3915,
+            7042
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Zoras Fountain Bottom Freestanding PoH",
+        "type": "Collectable",
+        "latlng": [
+            3913,
+            6919
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Gerudo Valley Waterfall Freestanding PoH",
+        "type": "Collectable",
+        "latlng": [
+            3787,
+            3146.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Gerudo Valley Crate Freestanding PoH",
+        "type": "Collectable",
+        "latlng": [
+            3372,
+            3107
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Colossus Freestanding PoH",
+        "type": "Collectable",
+        "latlng": [
+            3554.5,
+            570.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "DM Trail Freestanding PoH",
+        "type": "Collectable",
+        "latlng": [
+            4836.5,
+            4535.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "DM Crater Wall Freestanding PoH",
+        "type": "Collectable",
+        "latlng": [
+            6419,
+            4666.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "DM Crater Volcano Freestanding PoH",
+        "type": "Collectable",
+        "latlng": [
+            6587.5,
+            4541
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Goron City Pot Freestanding PoH",
+        "type": "Collectable",
+        "latlng": [
+            5720.5,
+            4667
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Gerudo Fortress North F1 Carpenter",
+        "type": "Collectable",
+        "latlng": [
+            3558.5,
+            2264
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Gerudo Fortress North F2 Carpenter",
+        "type": "Collectable",
+        "latlng": [
+            3533.75,
+            2330.25
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Gerudo Fortress South F1 Carpenter",
+        "type": "Collectable",
+        "latlng": [
+            3475.75,
+            2300.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Gerudo Fortress South F2 Carpenter",
+        "type": "Collectable",
+        "latlng": [
+            3437.75,
+            2332
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "Deku Tree Lobby Chest",
+        "type": "Chest",
+        "latlng": [
+            3160,
+            1572
+        ],
+        "map": "Deku Tree"
+    },
+    {
+        "name": "Deku Tree Slingshot Chest",
+        "type": "Chest",
+        "latlng": [
+            3924,
+            1192
+        ],
+        "map": "Deku Tree"
+    },
+    {
+        "name": "Deku Tree Slingshot Room Side Chest",
+        "type": "Chest",
+        "latlng": [
+            3890,
+            1284
+        ],
+        "map": "Deku Tree"
+    },
+    {
+        "name": "Deku Tree Compass Chest",
+        "type": "Chest",
+        "latlng": [
+            5431,
+            1095
+        ],
+        "map": "Deku Tree"
+    },
+    {
+        "name": "Deku Tree Compass Room Side Chest",
+        "type": "Chest",
+        "latlng": [
+            5335,
+            1250
+        ],
+        "map": "Deku Tree"
+    },
+    {
+        "name": "Deku Tree Basement Chest",
+        "type": "Chest",
+        "latlng": [
+            2228,
+            1886
+        ],
+        "map": "Deku Tree"
+    },
+    {
+        "name": "Chest Above King Dodongo",
+        "type": "Chest",
+        "latlng": [
+            1340,
+            1634
+        ],
+        "map": "Dodonogo's Cavern"
+    },
+    {
+        "name": "Dodongos Cavern Map Chest",
+        "type": "Chest",
+        "latlng": [
+            830,
+            1730
+        ],
+        "map": "Dodonogo's Cavern"
+    },
+    {
+        "name": "Dodongos Cavern Compass Chest",
+        "type": "Chest",
+        "latlng": [
+            574,
+            1366
+        ],
+        "map": "Dodonogo's Cavern"
+    },
+    {
+        "name": "Dodongos Cavern Bomb Flower Platform",
+        "type": "Chest",
+        "latlng": [
+            2350,
+            2368
+        ],
+        "map": "Dodonogo's Cavern"
+    },
+    {
+        "name": "Dodongos Cavern Bomb Bag Chest",
+        "type": "Chest",
+        "latlng": [
+            2588,
+            2310
+        ],
+        "map": "Dodonogo's Cavern"
+    },
+    {
+        "name": "Dodongos Cavern End of Bridge Chest",
+        "type": "Chest",
+        "latlng": [
+            2663,
+            1650
+        ],
+        "map": "Dodonogo's Cavern"
+    },
+    {
+        "name": "Boomerang Chest",
+        "type": "Chest",
+        "latlng": [
+            3900,
+            2388
+        ],
+        "map": "Jabu Jabu"
+    },
+    {
+        "name": "Jabu Jabus Belly Map Chest",
+        "type": "Chest",
+        "latlng": [
+            4280,
+            1582
+        ],
+        "map": "Jabu Jabu"
+    },
+    {
+        "name": "Jabu Jabus Belly Compass Chest",
+        "type": "Chest",
+        "latlng": [
+            4284,
+            2044
+        ],
+        "map": "Jabu Jabu"
+    },
+    {
+        "name": "Forest Temple First Chest",
+        "type": "Chest",
+        "latlng": [
+            4122,
+            1842
+        ],
+        "map": "Forest Temple"
+    },
+    {
+        "name": "Forest Temple Chest Behind Lobby",
+        "type": "Chest",
+        "latlng": [
+            3615,
+            1891
+        ],
+        "map": "Forest Temple"
+    },
+    {
+        "name": "Forest Temple Well Chest",
+        "type": "Chest",
+        "latlng": [
+            1622,
+            1562
+        ],
+        "map": "Forest Temple"
+    },
+    {
+        "name": "Forest Temple Map Chest",
+        "type": "Chest",
+        "latlng": [
+            5078,
+            1913
+        ],
+        "map": "Forest Temple"
+    },
+    {
+        "name": "Forest Temple Outside Hookshot Chest",
+        "type": "Chest",
+        "latlng": [
+            3324,
+            2366
+        ],
+        "map": "Forest Temple"
+    },
+    {
+        "name": "Forest Temple Falling Room Chest",
+        "type": "Chest",
+        "latlng": [
+            3238,
+            2498
+        ],
+        "map": "Forest Temple"
+    },
+    {
+        "name": "Forest Temple Block Push Chest",
+        "type": "Chest",
+        "latlng": [
+            4576,
+            1324
+        ],
+        "map": "Forest Temple"
+    },
+    {
+        "name": "Forest Temple Boss Key Chest",
+        "type": "Chest",
+        "latlng": [
+            5294,
+            1318
+        ],
+        "map": "Forest Temple"
+    },
+    {
+        "name": "Forest Temple Floormaster Chest",
+        "type": "Chest",
+        "latlng": [
+            3174,
+            1167
+        ],
+        "map": "Forest Temple"
+    },
+    {
+        "name": "Forest Temple Bow Chest",
+        "type": "Chest",
+        "latlng": [
+            5272,
+            1910
+        ],
+        "map": "Forest Temple"
+    },
+    {
+        "name": "Forest Temple Red Poe Chest",
+        "type": "Chest",
+        "latlng": [
+            5323,
+            1682
+        ],
+        "map": "Forest Temple"
+    },
+    {
+        "name": "Forest Temple Blue Poe Chest",
+        "type": "Chest",
+        "latlng": [
+            5324,
+            2099
+        ],
+        "map": "Forest Temple"
+    },
+    {
+        "name": "Forest Temple Near Boss Chest",
+        "type": "Chest",
+        "latlng": [
+            558,
+            1740.5
+        ],
+        "map": "Forest Temple"
+    },
+    {
+        "name": "Fire Temple Chest Near Boss",
+        "type": "Chest",
+        "latlng": [
+            1014,
+            1489
+        ],
+        "map": "Fire Temple"
+    },
+    {
+        "name": "Fire Temple Fire Dancer Chest",
+        "type": "Chest",
+        "latlng": [
+            1724,
+            1777
+        ],
+        "map": "Fire Temple"
+    },
+    {
+        "name": "Fire Temple Boss Key Chest",
+        "type": "Chest",
+        "latlng": [
+            1452,
+            1800
+        ],
+        "map": "Fire Temple"
+    },
+    {
+        "name": "Fire Temple Big Lava Room Bombable Chest",
+        "type": "Chest",
+        "latlng": [
+            707,
+            2330
+        ],
+        "map": "Fire Temple"
+    },
+    {
+        "name": "Fire Temple Big Lava Room Open Chest",
+        "type": "Chest",
+        "latlng": [
+            1766,
+            2473
+        ],
+        "map": "Fire Temple"
+    },
+    {
+        "name": "Fire Temple Boulder Maze Lower Chest",
+        "type": "Chest",
+        "latlng": [
+            3987,
+            2810
+        ],
+        "map": "Fire Temple"
+    },
+    {
+        "name": "Fire Temple Boulder Maze Upper Chest",
+        "type": "Chest",
+        "latlng": [
+            3964,
+            2715
+        ],
+        "map": "Fire Temple"
+    },
+    {
+        "name": "Fire Temple Boulder Maze Side Room",
+        "type": "Chest",
+        "latlng": [
+            4724,
+            2628
+        ],
+        "map": "Fire Temple"
+    },
+    {
+        "name": "Fire Temple Boulder Maze Bombable Pit",
+        "type": "Chest",
+        "latlng": [
+            3012,
+            2272
+        ],
+        "map": "Fire Temple"
+    },
+    {
+        "name": "Fire Temple Scarecrow Chest",
+        "type": "Chest",
+        "latlng": [
+            7460,
+            2666
+        ],
+        "map": "Fire Temple"
+    },
+    {
+        "name": "Fire Temple Map Chest",
+        "type": "Chest",
+        "latlng": [
+            4332,
+            2581
+        ],
+        "map": "Fire Temple"
+    },
+    {
+        "name": "Fire Temple Compass Chest",
+        "type": "Chest",
+        "latlng": [
+            4616,
+            2054
+        ],
+        "map": "Fire Temple"
+    },
+    {
+        "name": "Fire Temple Highest Goron Chest",
+        "type": "Chest",
+        "latlng": [
+            4265,
+            1776
+        ],
+        "map": "Fire Temple"
+    },
+    {
+        "name": "Fire Temple Megaton Hammer Chest",
+        "type": "Chest",
+        "latlng": [
+            7228,
+            1766
+        ],
+        "map": "Fire Temple"
+    },
+    {
+        "name": "Water Temple Map Chest",
+        "type": "Chest",
+        "latlng": [
+            5472,
+            2904
+        ],
+        "map": "Water Temple"
+    },
+    {
+        "name": "Water Temple Compass Chest",
+        "type": "Chest",
+        "latlng": [
+            5670,
+            2910
+        ],
+        "map": "Water Temple"
+    },
+    {
+        "name": "Water Temple Torches Chest",
+        "type": "Chest",
+        "latlng": [
+            1744,
+            3076
+        ],
+        "map": "Water Temple"
+    },
+    {
+        "name": "Water Temple Dragon Chest",
+        "type": "Chest",
+        "latlng": [
+            2424,
+            2042
+        ],
+        "map": "Water Temple"
+    },
+    {
+        "name": "Water Temple Central Bow Target Chest",
+        "type": "Chest",
+        "latlng": [
+            3802,
+            2770
+        ],
+        "map": "Water Temple"
+    },
+    {
+        "name": "Water Temple Central Pillar Chest",
+        "type": "Chest",
+        "latlng": [
+            592,
+            2706
+        ],
+        "map": "Water Temple"
+    },
+    {
+        "name": "Water Temple Cracked Wall Chest",
+        "type": "Chest",
+        "latlng": [
+            4108,
+            2984
+        ],
+        "map": "Water Temple"
+    },
+    {
+        "name": "Water Temple Boss Key Chest",
+        "type": "Chest",
+        "latlng": [
+            2663,
+            2260
+        ],
+        "map": "Water Temple"
+    },
+    {
+        "name": "Water Temple Dark Link Chest",
+        "type": "Chest",
+        "latlng": [
+            6591,
+            1671
+        ],
+        "map": "Water Temple"
+    },
+    {
+        "name": "Water Temple River Chest",
+        "type": "Chest",
+        "latlng": [
+            2628.5,
+            2178
+        ],
+        "map": "Water Temple"
+    },
+    {
+        "name": "Silver Gauntlets Chest",
+        "type": "Chest",
+        "latlng": [
+            2602,
+            1440
+        ],
+        "map": "Spirit Temple"
+    },
+    {
+        "name": "Mirror Shield Chest",
+        "type": "Chest",
+        "latlng": [
+            2616,
+            2206
+        ],
+        "map": "Spirit Temple"
+    },
+    {
+        "name": "Spirit Temple Child Left Chest",
+        "type": "Chest",
+        "latlng": [
+            958,
+            1238
+        ],
+        "map": "Spirit Temple"
+    },
+    {
+        "name": "Spirit Temple Child Right Chest",
+        "type": "Chest",
+        "latlng": [
+            1014.75,
+            1719.25
+        ],
+        "map": "Spirit Temple"
+    },
+    {
+        "name": "Spirit Temple Compass Chest",
+        "type": "Chest",
+        "latlng": [
+            1020,
+            1908
+        ],
+        "map": "Spirit Temple"
+    },
+    {
+        "name": "Spirit Temple Early Adult Right Chest",
+        "type": "Chest",
+        "latlng": [
+            1254,
+            2390
+        ],
+        "map": "Spirit Temple"
+    },
+    {
+        "name": "Spirit Temple First Mirror Right Chest",
+        "type": "Chest",
+        "latlng": [
+            1920,
+            2250
+        ],
+        "map": "Spirit Temple"
+    },
+    {
+        "name": "Spirit Temple First Mirror Left Chest",
+        "type": "Chest",
+        "latlng": [
+            1972,
+            2250
+        ],
+        "map": "Spirit Temple"
+    },
+    {
+        "name": "Spirit Temple Map Chest",
+        "type": "Chest",
+        "latlng": [
+            2054,
+            1790
+        ],
+        "map": "Spirit Temple"
+    },
+    {
+        "name": "Spirit Temple Child Climb East Chest",
+        "type": "Chest",
+        "latlng": [
+            2036,
+            1474
+        ],
+        "map": "Spirit Temple"
+    },
+    {
+        "name": "Spirit Temple Child Climb North Chest",
+        "type": "Chest",
+        "latlng": [
+            2078,
+            1444
+        ],
+        "map": "Spirit Temple"
+    },
+    {
+        "name": "Spirit Temple Sun Block Room Chest",
+        "type": "Chest",
+        "latlng": [
+            3084,
+            1258
+        ],
+        "map": "Spirit Temple"
+    },
+    {
+        "name": "Spirit Temple Statue Hand Chest",
+        "type": "Chest",
+        "latlng": [
+            2082,
+            1696
+        ],
+        "map": "Spirit Temple"
+    },
+    {
+        "name": "Spirit Temple NE Main Room Chest",
+        "type": "Chest",
+        "latlng": [
+            3702,
+            1974
+        ],
+        "map": "Spirit Temple"
+    },
+    {
+        "name": "Spirit Temple Near Four Armos Chest",
+        "type": "Chest",
+        "latlng": [
+            3448,
+            2494
+        ],
+        "map": "Spirit Temple"
+    },
+    {
+        "name": "Spirit Temple Hallway Left Invisible Chest",
+        "type": "Chest",
+        "latlng": [
+            2880,
+            2546
+        ],
+        "map": "Spirit Temple"
+    },
+    {
+        "name": "Spirit Temple Hallway Right Invisible Chest",
+        "type": "Chest",
+        "latlng": [
+            2880,
+            2498
+        ],
+        "map": "Spirit Temple"
+    },
+    {
+        "name": "Spirit Temple Boss Key Chest",
+        "type": "Chest",
+        "latlng": [
+            4692,
+            2034
+        ],
+        "map": "Spirit Temple"
+    },
+    {
+        "name": "Spirit Temple Topmost Chest",
+        "type": "Chest",
+        "latlng": [
+            4456,
+            1552
+        ],
+        "map": "Spirit Temple"
+    },
+    {
+        "name": "Shadow Temple Map Chest",
+        "type": "Chest",
+        "latlng": [
+            4074.5,
+            1784.5
+        ],
+        "map": "Shadow Temple"
+    },
+    {
+        "name": "Shadow Temple Hover Boots Chest",
+        "type": "Chest",
+        "latlng": [
+            3968,
+            1555.5
+        ],
+        "map": "Shadow Temple"
+    },
+    {
+        "name": "Shadow Temple Compass Chest",
+        "type": "Chest",
+        "latlng": [
+            3106.5,
+            1779
+        ],
+        "map": "Shadow Temple"
+    },
+    {
+        "name": "Shadow Temple Early Silver Rupee Chest",
+        "type": "Chest",
+        "latlng": [
+            3354.25,
+            1834.5
+        ],
+        "map": "Shadow Temple"
+    },
+    {
+        "name": "Shadow Temple Invisible Blades Visible Chest",
+        "type": "Chest",
+        "latlng": [
+            2024.5,
+            2367
+        ],
+        "map": "Shadow Temple"
+    },
+    {
+        "name": "Shadow Temple Invisible Blades Invisible Chest",
+        "type": "Chest",
+        "latlng": [
+            2014.25,
+            2367
+        ],
+        "map": "Shadow Temple"
+    },
+    {
+        "name": "Shadow Temple Falling Spikes Lower Chest",
+        "type": "Chest",
+        "latlng": [
+            437.25,
+            1789.75
+        ],
+        "map": "Shadow Temple"
+    },
+    {
+        "name": "Shadow Temple Falling Spikes Upper Chest",
+        "type": "Chest",
+        "latlng": [
+            398.25,
+            1769.25
+        ],
+        "map": "Shadow Temple"
+    },
+    {
+        "name": "Shadow Temple Falling Spikes Switch Chest",
+        "type": "Chest",
+        "latlng": [
+            438.25,
+            1852.25
+        ],
+        "map": "Shadow Temple"
+    },
+    {
+        "name": "Shadow Temple Invisible Spikes Chest",
+        "type": "Chest",
+        "latlng": [
+            738.5,
+            2044.5
+        ],
+        "map": "Shadow Temple"
+    },
+    {
+        "name": "Shadow Temple Wind Hint Chest",
+        "type": "Chest",
+        "latlng": [
+            919,
+            2361.5
+        ],
+        "map": "Shadow Temple"
+    },
+    {
+        "name": "Shadow Temple After Wind Enemy Chest",
+        "type": "Chest",
+        "latlng": [
+            1046,
+            2235
+        ],
+        "map": "Shadow Temple"
+    },
+    {
+        "name": "Shadow Temple After Wind Hidden Chest",
+        "type": "Chest",
+        "latlng": [
+            1017,
+            2245.5
+        ],
+        "map": "Shadow Temple"
+    },
+    {
+        "name": "Shadow Temple Spike Walls Left Chest",
+        "type": "Chest",
+        "latlng": [
+            1311.5,
+            1256.5
+        ],
+        "map": "Shadow Temple"
+    },
+    {
+        "name": "Shadow Temple Boss Key Chest",
+        "type": "Chest",
+        "latlng": [
+            1311.75,
+            1323.75
+        ],
+        "map": "Shadow Temple"
+    },
+    {
+        "name": "Shadow Temple Hidden Floormaster Chest",
+        "type": "Chest",
+        "latlng": [
+            985.25,
+            1289.5
+        ],
+        "map": "Shadow Temple"
+    },
+    {
+        "name": "Shadow Temple Freestanding Key",
+        "type": "Collectable",
+        "latlng": [
+            737,
+            1890
+        ],
+        "map": "Shadow Temple"
+    },
+    {
+        "name": "Bottom of the Well Front Left Hidden Wall",
+        "type": "Chest",
+        "latlng": [
+            2140,
+            1380
+        ],
+        "map": "BotW"
+    },
+    {
+        "name": "Bottom of the Well Front Center Bombable",
+        "type": "Chest",
+        "latlng": [
+            1238,
+            1428
+        ],
+        "map": "BotW"
+    },
+    {
+        "name": "Bottom of the Well Right Bottom Hidden Wall",
+        "type": "Chest",
+        "latlng": [
+            2170,
+            1544
+        ],
+        "map": "BotW"
+    },
+    {
+        "name": "Bottom of the Well Center Large Chest",
+        "type": "Chest",
+        "latlng": [
+            2191,
+            1387
+        ],
+        "map": "BotW"
+    },
+    {
+        "name": "Bottom of the Well Center Small Chest",
+        "type": "Chest",
+        "latlng": [
+            2192,
+            1516
+        ],
+        "map": "BotW"
+    },
+    {
+        "name": "Bottom of the Well Back Left Bombable",
+        "type": "Chest",
+        "latlng": [
+            2421,
+            1229
+        ],
+        "map": "BotW"
+    },
+    {
+        "name": "Bottom of the Well Defeat Boss",
+        "type": "Chest",
+        "latlng": [
+            2073,
+            1735
+        ],
+        "map": "BotW"
+    },
+    {
+        "name": "Bottom of the Well Invisible Chest",
+        "type": "Chest",
+        "latlng": [
+            2074,
+            1797
+        ],
+        "map": "BotW"
+    },
+    {
+        "name": "Bottom of the Well Underwater Front Chest",
+        "type": "Chest",
+        "latlng": [
+            1136,
+            1445
+        ],
+        "map": "BotW"
+    },
+    {
+        "name": "Bottom of the Well Underwater Left Chest",
+        "type": "Chest",
+        "latlng": [
+            1328,
+            1188
+        ],
+        "map": "BotW"
+    },
+    {
+        "name": "Bottom of the Well Basement Chest",
+        "type": "Chest",
+        "latlng": [
+            305,
+            1529
+        ],
+        "map": "BotW"
+    },
+    {
+        "name": "Bottom of the Well Locked Pits",
+        "type": "Chest",
+        "latlng": [
+            2315,
+            1669.5
+        ],
+        "map": "BotW"
+    },
+    {
+        "name": "Bottom of the Well Behind Right Grate",
+        "type": "Chest",
+        "latlng": [
+            2267,
+            1659
+        ],
+        "map": "BotW"
+    },
+    {
+        "name": "Bottom of the Well Freestanding Key",
+        "type": "Collectable",
+        "latlng": [
+            2233,
+            943
+        ],
+        "map": "BotW"
+    },
+    {
+        "name": "Ice Cavern Map Chest",
+        "type": "Chest",
+        "latlng": [
+            2176,
+            1800
+        ],
+        "map": "Ice Cavern"
+    },
+    {
+        "name": "Ice Cavern Compass Chest",
+        "type": "Chest",
+        "latlng": [
+            1160,
+            2072
+        ],
+        "map": "Ice Cavern"
+    },
+    {
+        "name": "Ice Cavern Iron Boots Chest",
+        "type": "Chest",
+        "latlng": [
+            1008,
+            1268
+        ],
+        "map": "Ice Cavern"
+    },
+    {
+        "name": "Ice Cavern Freestanding PoH",
+        "type": "Collectable",
+        "latlng": [
+            1319,
+            2073
+        ],
+        "map": "Ice Cavern"
+    },
+    {
+        "name": "Gerudo Training Grounds Lobby Left Chest",
+        "type": "Chest",
+        "latlng": [
+            400,
+            1406
+        ],
+        "map": "GTG"
+    },
+    {
+        "name": "Gerudo Training Grounds Lobby Right Chest",
+        "type": "Chest",
+        "latlng": [
+            401,
+            1525
+        ],
+        "map": "GTG"
+    },
+    {
+        "name": "Gerudo Training Grounds Stalfos Chest",
+        "type": "Chest",
+        "latlng": [
+            459,
+            915
+        ],
+        "map": "GTG"
+    },
+    {
+        "name": "Gerudo Training Grounds Beamos Chest",
+        "type": "Chest",
+        "latlng": [
+            362,
+            1986
+        ],
+        "map": "GTG"
+    },
+    {
+        "name": "Gerudo Training Grounds Hidden Ceiling Chest",
+        "type": "Chest",
+        "latlng": [
+            1715,
+            1466
+        ],
+        "map": "GTG"
+    },
+    {
+        "name": "Gerudo Training Grounds Maze Path First Chest",
+        "type": "Chest",
+        "latlng": [
+            813,
+            1282
+        ],
+        "map": "GTG"
+    },
+    {
+        "name": "Gerudo Training Grounds Maze Path Second Chest",
+        "type": "Chest",
+        "latlng": [
+            966,
+            1335.5
+        ],
+        "map": "GTG"
+    },
+    {
+        "name": "Gerudo Training Grounds Maze Path Third Chest",
+        "type": "Chest",
+        "latlng": [
+            966,
+            1378.5
+        ],
+        "map": "GTG"
+    },
+    {
+        "name": "Gerudo Training Grounds Maze Path Final Chest",
+        "type": "Chest",
+        "latlng": [
+            841.5,
+            1465
+        ],
+        "map": "GTG"
+    },
+    {
+        "name": "Gerudo Training Grounds Maze Right Central Chest",
+        "type": "Chest",
+        "latlng": [
+            809,
+            1542
+        ],
+        "map": "GTG"
+    },
+    {
+        "name": "Gerudo Training Grounds Maze Right Side Chest",
+        "type": "Chest",
+        "latlng": [
+            860.5,
+            1594.5
+        ],
+        "map": "GTG"
+    },
+    {
+        "name": "Gerudo Training Grounds Underwater Silver Rupee Chest",
+        "type": "Chest",
+        "latlng": [
+            828.5,
+            2196.5
+        ],
+        "map": "GTG"
+    },
+    {
+        "name": "Gerudo Training Grounds Hammer Room Clear Chest",
+        "type": "Chest",
+        "latlng": [
+            1301,
+            1974
+        ],
+        "map": "GTG"
+    },
+    {
+        "name": "Gerudo Training Grounds Hammer Room Switch Chest",
+        "type": "Chest",
+        "latlng": [
+            1223.5,
+            1973.5
+        ],
+        "map": "GTG"
+    },
+    {
+        "name": "Gerudo Training Grounds Eye Statue Chest",
+        "type": "Chest",
+        "latlng": [
+            1185,
+            1474
+        ],
+        "map": "GTG"
+    },
+    {
+        "name": "Gerudo Training Grounds Near Scarecrow Chest",
+        "type": "Chest",
+        "latlng": [
+            1865,
+            1451
+        ],
+        "map": "GTG"
+    },
+    {
+        "name": "Gerudo Training Grounds Before Heavy Block Chest",
+        "type": "Chest",
+        "latlng": [
+            2228,
+            999
+        ],
+        "map": "GTG"
+    },
+    {
+        "name": "Gerudo Training Grounds Heavy Block First Chest",
+        "type": "Chest",
+        "latlng": [
+            2505.5,
+            984
+        ],
+        "map": "GTG"
+    },
+    {
+        "name": "Gerudo Training Grounds Heavy Block Second Chest",
+        "type": "Chest",
+        "latlng": [
+            2556,
+            925.5
+        ],
+        "map": "GTG"
+    },
+    {
+        "name": "Gerudo Training Grounds Heavy Block Third Chest",
+        "type": "Chest",
+        "latlng": [
+            2585,
+            991
+        ],
+        "map": "GTG"
+    },
+    {
+        "name": "Gerudo Training Grounds Heavy Block Fourth Chest",
+        "type": "Chest",
+        "latlng": [
+            2603.5,
+            925
+        ],
+        "map": "GTG"
+    },
+    {
+        "name": "Gerudo Training Grounds Freestanding Key",
+        "type": "Collectable",
+        "latlng": [
+            809,
+            1857
+        ],
+        "map": "GTG"
+    },
+    {
+        "name": "Ganons Tower Boss Key Chest",
+        "type": "Chest",
+        "latlng": [
+            2836,
+            1094
+        ],
+        "map": "Ganon's Tower"
+    },
+    {
+        "name": "Ganons Castle Forest Trial Chest",
+        "type": "Chest",
+        "latlng": [
+            842,
+            1246
+        ],
+        "map": "Ganon's Tower"
+    },
+    {
+        "name": "Ganons Castle Water Trial Left Chest",
+        "type": "Chest",
+        "latlng": [
+            1167,
+            1409
+        ],
+        "map": "Ganon's Tower"
+    },
+    {
+        "name": "Ganons Castle Water Trial Right Chest",
+        "type": "Chest",
+        "latlng": [
+            1116,
+            1409
+        ],
+        "map": "Ganon's Tower"
+    },
+    {
+        "name": "Ganons Castle Shadow Trial First Chest",
+        "type": "Chest",
+        "latlng": [
+            1491,
+            1176
+        ],
+        "map": "Ganon's Tower"
+    },
+    {
+        "name": "Ganons Castle Shadow Trial Second Chest",
+        "type": "Chest",
+        "latlng": [
+            1712,
+            1389
+        ],
+        "map": "Ganon's Tower"
+    },
+    {
+        "name": "Ganons Castle Spirit Trial First Chest",
+        "type": "Chest",
+        "latlng": [
+            877,
+            742
+        ],
+        "map": "Ganon's Tower"
+    },
+    {
+        "name": "Ganons Castle Spirit Trial Second Chest",
+        "type": "Chest",
+        "latlng": [
+            818,
+            709
+        ],
+        "map": "Ganon's Tower"
+    },
+    {
+        "name": "Ganons Castle Light Trial First Left Chest",
+        "type": "Chest",
+        "latlng": [
+            1123.5,
+            757
+        ],
+        "map": "Ganon's Tower"
+    },
+    {
+        "name": "Ganons Castle Light Trial Second Left Chest",
+        "type": "Chest",
+        "latlng": [
+            1113.5,
+            735
+        ],
+        "map": "Ganon's Tower"
+    },
+    {
+        "name": "Ganons Castle Light Trial Third Left Chest",
+        "type": "Chest",
+        "latlng": [
+            1124,
+            712
+        ],
+        "map": "Ganon's Tower"
+    },
+    {
+        "name": "Ganons Castle Light Trial First Right Chest",
+        "type": "Chest",
+        "latlng": [
+            1164,
+            756.5
+        ],
+        "map": "Ganon's Tower"
+    },
+    {
+        "name": "Ganons Castle Light Trial Second Right Chest",
+        "type": "Chest",
+        "latlng": [
+            1174.5,
+            735.5
+        ],
+        "map": "Ganon's Tower"
+    },
+    {
+        "name": "Ganons Castle Light Trial Third Right Chest",
+        "type": "Chest",
+        "latlng": [
+            1163,
+            712
+        ],
+        "map": "Ganon's Tower"
+    },
+    {
+        "name": "Ganons Castle Light Trial Invisible Enemies Chest",
+        "type": "Chest",
+        "latlng": [
+            1144,
+            735.5
+        ],
+        "map": "Ganon's Tower"
+    },
+    {
+        "name": "Ganons Castle Light Trial Lullaby Chest",
+        "type": "Chest",
+        "latlng": [
+            1174,
+            625.5
+        ],
+        "map": "Ganon's Tower"
+    },
+    {
+        "name": "Queen Gohma Heart",
+        "type": "BossHeart",
+        "latlng": [
+            1070,
+            1374
+        ],
+        "map": "Deku Tree"
+    },
+    {
+        "name": "King Dodongo Heart",
+        "type": "BossHeart",
+        "latlng": [
+            1340,
+            1715
+        ],
+        "map": "Dodonogo's Cavern"
+    },
+    {
+        "name": "Barinade Heart",
+        "type": "BossHeart",
+        "latlng": [
+            3076,
+            2296
+        ],
+        "map": "Jabu Jabu"
+    },
+    {
+        "name": "Phantom Ganon Heart",
+        "type": "BossHeart",
+        "latlng": [
+            1196,
+            1876
+        ],
+        "map": "Forest Temple"
+    },
+    {
+        "name": "Volvagia Heart",
+        "type": "BossHeart",
+        "latlng": [
+            1255,
+            1302
+        ],
+        "map": "Fire Temple"
+    },
+    {
+        "name": "Morpha Heart",
+        "type": "BossHeart",
+        "latlng": [
+            6182,
+            2526
+        ],
+        "map": "Water Temple"
+    },
+    {
+        "name": "Twinrova Heart",
+        "type": "BossHeart",
+        "latlng": [
+            3972,
+            1776
+        ],
+        "map": "Spirit Temple"
+    },
+    {
+        "name": "Bongo Bongo Heart",
+        "type": "BossHeart",
+        "latlng": [
+            777,
+            1509
+        ],
+        "map": "Shadow Temple"
+    },
+    {
+        "name": "GS Deku Tree Basement Back Room",
+        "type": "GS Token",
+        "latlng": [
+            2354,
+            866
+        ],
+        "map": "Deku Tree"
+    },
+    {
+        "name": "GS Deku Tree Basement Gate",
+        "type": "GS Token",
+        "latlng": [
+            2314.5,
+            1773.5
+        ],
+        "map": "Deku Tree"
+    },
+    {
+        "name": "GS Deku Tree Basement Vines",
+        "type": "GS Token",
+        "latlng": [
+            2177,
+            1916.5
+        ],
+        "map": "Deku Tree"
+    },
+    {
+        "name": "GS Deku Tree Compass Room",
+        "type": "GS Token",
+        "latlng": [
+            5312.5,
+            1249.5
+        ],
+        "map": "Deku Tree"
+    },
+    {
+        "name": "GS Dodongo's Cavern Vines Above Stairs",
+        "type": "GS Token",
+        "latlng": [
+            2644,
+            1278
+        ],
+        "map": "Dodonogo's Cavern"
+    },
+    {
+        "name": "GS Dodongo's Cavern Scarecrow",
+        "type": "GS Token",
+        "latlng": [
+            705,
+            2536
+        ],
+        "map": "Dodonogo's Cavern"
+    },
+    {
+        "name": "GS Dodongo's Cavern Alcove Above Stairs",
+        "type": "GS Token",
+        "latlng": [
+            2798,
+            1289
+        ],
+        "map": "Dodonogo's Cavern"
+    },
+    {
+        "name": "GS Dodongo's Cavern Back Room",
+        "type": "GS Token",
+        "latlng": [
+            1884,
+            2346
+        ],
+        "map": "Dodonogo's Cavern"
+    },
+    {
+        "name": "GS Dodongo's Cavern East Side Room",
+        "type": "GS Token",
+        "latlng": [
+            343,
+            2628
+        ],
+        "map": "Dodonogo's Cavern"
+    },
+    {
+        "name": "GS Jabu Jabu Lobby Basement Lower",
+        "type": "GS Token",
+        "latlng": [
+            1575.5,
+            1775
+        ],
+        "map": "Jabu Jabu"
+    },
+    {
+        "name": "GS Jabu Jabu Lobby Basement Upper",
+        "type": "GS Token",
+        "latlng": [
+            1551,
+            1705.5
+        ],
+        "map": "Jabu Jabu"
+    },
+    {
+        "name": "GS Jabu Jabu Near Boss",
+        "type": "GS Token",
+        "latlng": [
+            2742,
+            2356
+        ],
+        "map": "Jabu Jabu"
+    },
+    {
+        "name": "GS Jabu Jabu Water Switch Room",
+        "type": "GS Token",
+        "latlng": [
+            1140,
+            2119
+        ],
+        "map": "Jabu Jabu"
+    },
+    {
+        "name": "GS Forest Temple Outdoor East",
+        "type": "GS Token",
+        "latlng": [
+            3365,
+            2316
+        ],
+        "map": "Forest Temple"
+    },
+    {
+        "name": "GS Forest Temple First Room",
+        "type": "GS Token",
+        "latlng": [
+            4096,
+            2000
+        ],
+        "map": "Forest Temple"
+    },
+    {
+        "name": "GS Forest Temple Outdoor West",
+        "type": "GS Token",
+        "latlng": [
+            5149,
+            1499
+        ],
+        "map": "Forest Temple"
+    },
+    {
+        "name": "GS Forest Temple Lobby",
+        "type": "GS Token",
+        "latlng": [
+            3226.5,
+            1983.5
+        ],
+        "map": "Forest Temple"
+    },
+    {
+        "name": "GS Forest Temple Basement",
+        "type": "GS Token",
+        "latlng": [
+            585,
+            1733.5
+        ],
+        "map": "Forest Temple"
+    },
+    {
+        "name": "GS Fire Temple Song of Time Room",
+        "type": "GS Token",
+        "latlng": [
+            1743,
+            2114.5
+        ],
+        "map": "Fire Temple"
+    },
+    {
+        "name": "GS Fire Temple Basement",
+        "type": "GS Token",
+        "latlng": [
+            1795.5,
+            1979.5
+        ],
+        "map": "Fire Temple"
+    },
+    {
+        "name": "GS Fire Temple Unmarked Bomb Wall",
+        "type": "GS Token",
+        "latlng": [
+            4536,
+            2815
+        ],
+        "map": "Fire Temple"
+    },
+    {
+        "name": "GS Fire Temple East Tower Top",
+        "type": "GS Token",
+        "latlng": [
+            7421,
+            2582
+        ],
+        "map": "Fire Temple"
+    },
+    {
+        "name": "GS Fire Temple East Tower Climb",
+        "type": "GS Token",
+        "latlng": [
+            6264,
+            2847
+        ],
+        "map": "Fire Temple"
+    },
+    {
+        "name": "GS Water Temple South Basement",
+        "type": "GS Token",
+        "latlng": [
+            1604,
+            1944
+        ],
+        "map": "Water Temple"
+    },
+    {
+        "name": "GS Water Temple Falling Platform Room",
+        "type": "GS Token",
+        "latlng": [
+            5533,
+            2117
+        ],
+        "map": "Water Temple"
+    },
+    {
+        "name": "GS Water Temple Central Room",
+        "type": "GS Token",
+        "latlng": [
+            5502,
+            2507
+        ],
+        "map": "Water Temple"
+    },
+    {
+        "name": "GS Water Temple Near Boss Key Chest",
+        "type": "GS Token",
+        "latlng": [
+            2475,
+            2294
+        ],
+        "map": "Water Temple"
+    },
+    {
+        "name": "GS Water Temple Serpent River",
+        "type": "GS Token",
+        "latlng": [
+            2834.5,
+            1993.5
+        ],
+        "map": "Water Temple"
+    },
+    {
+        "name": "GS Spirit Temple Hall to West Iron Knuckle",
+        "type": "GS Token",
+        "latlng": [
+            2982,
+            1114
+        ],
+        "map": "Spirit Temple"
+    },
+    {
+        "name": "GS Spirit Temple Boulder Room",
+        "type": "GS Token",
+        "latlng": [
+            939.5,
+            2296.5
+        ],
+        "map": "Spirit Temple"
+    },
+    {
+        "name": "GS Spirit Temple Lobby",
+        "type": "GS Token",
+        "latlng": [
+            3750,
+            1554
+        ],
+        "map": "Spirit Temple"
+    },
+    {
+        "name": "GS Spirit Temple Bomb for Light Room",
+        "type": "GS Token",
+        "latlng": [
+            2122,
+            1357
+        ],
+        "map": "Spirit Temple"
+    },
+    {
+        "name": "GS Spirit Temple Metal Fence",
+        "type": "GS Token",
+        "latlng": [
+            958.75,
+            1706
+        ],
+        "map": "Spirit Temple"
+    },
+    {
+        "name": "GS Shadow Temple Single Giant Pot",
+        "type": "GS Token",
+        "latlng": [
+            737.75,
+            1869.25
+        ],
+        "map": "Shadow Temple"
+    },
+    {
+        "name": "GS Shadow Temple Crusher Room",
+        "type": "GS Token",
+        "latlng": [
+            398,
+            1813.5
+        ],
+        "map": "Shadow Temple"
+    },
+    {
+        "name": "GS Shadow Temple Triple Giant Pot",
+        "type": "GS Token",
+        "latlng": [
+            1154,
+            1075.75
+        ],
+        "map": "Shadow Temple"
+    },
+    {
+        "name": "GS Shadow Temple Like Like Room",
+        "type": "GS Token",
+        "latlng": [
+            2019.5,
+            2370.5
+        ],
+        "map": "Shadow Temple"
+    },
+    {
+        "name": "GS Shadow Temple Near Ship",
+        "type": "GS Token",
+        "latlng": [
+            2469.75,
+            2171.75
+        ],
+        "map": "Shadow Temple"
+    },
+    {
+        "name": "GS Well Like Like Cage",
+        "type": "GS Token",
+        "latlng": [
+            2269.75,
+            1669.5
+        ],
+        "map": "BotW"
+    },
+    {
+        "name": "GS Well East Inner Room",
+        "type": "GS Token",
+        "latlng": [
+            2349.75,
+            1472.75
+        ],
+        "map": "BotW"
+    },
+    {
+        "name": "GS Well West Inner Room",
+        "type": "GS Token",
+        "latlng": [
+            2356.5,
+            1389.25
+        ],
+        "map": "BotW"
+    },
+    {
+        "name": "GS Ice Cavern Push Block Room",
+        "type": "GS Token",
+        "latlng": [
+            1571,
+            1354
+        ],
+        "map": "Ice Cavern"
+    },
+    {
+        "name": "GS Ice Cavern Spinning Scythe Room",
+        "type": "GS Token",
+        "latlng": [
+            1427,
+            1650
+        ],
+        "map": "Ice Cavern"
+    },
+    {
+        "name": "GS Ice Cavern Heart Piece Room",
+        "type": "GS Token",
+        "latlng": [
+            1304.5,
+            2109
+        ],
+        "map": "Ice Cavern"
+    },
+    {
+        "name": "GS Hyrule Field Near Gerudo Valley",
+        "type": "GS Token",
+        "latlng": [
+            3584.5,
+            3833.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Hyrule Field near Kakariko",
+        "type": "GS Token",
+        "latlng": [
+            3858,
+            4230
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Lon Lon Ranch Back Wall",
+        "type": "GS Token",
+        "latlng": [
+            4869,
+            3232
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Lon Lon Ranch Rain Shed",
+        "type": "GS Token",
+        "latlng": [
+            4929,
+            3500
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Lon Lon Ranch House Window",
+        "type": "GS Token",
+        "latlng": [
+            5221.5,
+            3517
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Lon Lon Ranch Tree",
+        "type": "GS Token",
+        "latlng": [
+            5169.5,
+            3546
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Kokiri Bean Patch",
+        "type": "GS Token",
+        "latlng": [
+            779.5,
+            4719.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Kokiri Know It All House",
+        "type": "GS Token",
+        "latlng": [
+            674,
+            4427.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Kokiri House of Twins",
+        "type": "GS Token",
+        "latlng": [
+            645,
+            4717.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Lost Woods Bean Patch Near Bridge",
+        "type": "GS Token",
+        "latlng": [
+            1278.5,
+            4831.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Lost Woods Bean Patch Near Stage",
+        "type": "GS Token",
+        "latlng": [
+            1503.5,
+            4935.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Lost Woods Above Stage",
+        "type": "GS Token",
+        "latlng": [
+            1513,
+            4941
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Sacred Forest Meadow",
+        "type": "GS Token",
+        "latlng": [
+            2223,
+            4899
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Outside Ganon's Castle",
+        "type": "GS Token",
+        "latlng": [
+            5479,
+            2754
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Hyrule Castle Grotto",
+        "type": "GS Token",
+        "latlng": [
+            4801.5,
+            2708.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Hyrule Castle Tree",
+        "type": "GS Token",
+        "latlng": [
+            4584.5,
+            2607.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Castle Market Guard House",
+        "type": "GS Token",
+        "latlng": [
+            3944.5,
+            4175.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Mountain Crater Bean Patch",
+        "type": "GS Token",
+        "latlng": [
+            6632,
+            4628
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Mountain Trail Bean Patch",
+        "type": "GS Token",
+        "latlng": [
+            4816.25,
+            4539
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Mountain Trail Bomb Alcove",
+        "type": "GS Token",
+        "latlng": [
+            4593,
+            4516.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Mountain Trail Above Dodongo's Cavern",
+        "type": "GS Token",
+        "latlng": [
+            4851,
+            4555.25
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Mountain Trail Path to Crater",
+        "type": "GS Token",
+        "latlng": [
+            5086,
+            4705.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Goron City Center Platform",
+        "type": "GS Token",
+        "latlng": [
+            5702.5,
+            4668.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Goron City Boulder Maze",
+        "type": "GS Token",
+        "latlng": [
+            5975,
+            4435.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Death Mountain Crater Crate",
+        "type": "GS Token",
+        "latlng": [
+            6292,
+            4483
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Kakariko House Under Construction",
+        "type": "GS Token",
+        "latlng": [
+            4829,
+            5849.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Kakariko Skulltula House",
+        "type": "GS Token",
+        "latlng": [
+            4818.5,
+            5726.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Kakariko Guard's House",
+        "type": "GS Token",
+        "latlng": [
+            5127.5,
+            5760.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Kakariko Tree",
+        "type": "GS Token",
+        "latlng": [
+            4922.5,
+            5696.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Kakariko Watchtower",
+        "type": "GS Token",
+        "latlng": [
+            5030.5,
+            5805
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Kakariko Above Impa's House",
+        "type": "GS Token",
+        "latlng": [
+            4721,
+            5794
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Graveyard Wall",
+        "type": "GS Token",
+        "latlng": [
+            4724,
+            6685
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Graveyard Bean Patch",
+        "type": "GS Token",
+        "latlng": [
+            4908.75,
+            6538.75
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Zora River Ladder",
+        "type": "GS Token",
+        "latlng": [
+            3760.75,
+            5647
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Zora River Tree",
+        "type": "GS Token",
+        "latlng": [
+            3459.5,
+            4887
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Zora's Fountain Above the Log",
+        "type": "GS Token",
+        "latlng": [
+            3699,
+            6715.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Zora River Above Bridge",
+        "type": "GS Token",
+        "latlng": [
+            3760.5,
+            5509.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Zora River Near Raised Grottos",
+        "type": "GS Token",
+        "latlng": [
+            3512,
+            5111.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Zora's Fountain Hidden Cave",
+        "type": "GS Token",
+        "latlng": [
+            3742,
+            7071
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Zora's Domain Frozen Waterfall",
+        "type": "GS Token",
+        "latlng": [
+            3787,
+            6086.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Zora's Fountain Tree",
+        "type": "GS Token",
+        "latlng": [
+            3643,
+            6943
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Lake Hylia Bean Patch",
+        "type": "GS Token",
+        "latlng": [
+            2495.25,
+            3146.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Lake Hylia Small Island",
+        "type": "GS Token",
+        "latlng": [
+            2213.75,
+            3405.125
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Lake Hylia Lab Wall",
+        "type": "GS Token",
+        "latlng": [
+            2451.75,
+            3122.25
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Lab Underwater Crate",
+        "type": "GS Token",
+        "latlng": [
+            2480.25,
+            3125
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Lake Hylia Giant Tree",
+        "type": "GS Token",
+        "latlng": [
+            2195,
+            3285.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Gerudo Valley Bean Patch",
+        "type": "GS Token",
+        "latlng": [
+            3593,
+            3090.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Gerudo Valley Small Bridge",
+        "type": "GS Token",
+        "latlng": [
+            3572,
+            3300.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Gerudo Valley Pillar",
+        "type": "GS Token",
+        "latlng": [
+            3518.5,
+            3013
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Gerudo Valley Behind Tent",
+        "type": "GS Token",
+        "latlng": [
+            3647.5,
+            3038.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Gerudo Fortress Archery Range",
+        "type": "GS Token",
+        "latlng": [
+            3800,
+            2555
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Gerudo Fortress Top Floor",
+        "type": "GS Token",
+        "latlng": [
+            3534,
+            2369.5
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Desert Colossus Bean Patch",
+        "type": "GS Token",
+        "latlng": [
+            3526.25,
+            515.25
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Wasteland Ruins",
+        "type": "GS Token",
+        "latlng": [
+            3631.75,
+            1403.75
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Desert Colossus Hill",
+        "type": "GS Token",
+        "latlng": [
+            3594.25,
+            764.75
+        ],
+        "map": "Overworld"
+    },
+    {
+        "name": "GS Desert Colossus Tree",
+        "type": "GS Token",
+        "latlng": [
+            3349.5,
+            698.25
+        ],
+        "map": "Overworld"
     }
 ]
