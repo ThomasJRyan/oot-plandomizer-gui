@@ -19,18 +19,28 @@
           v-if="currentMap == 'Overworld'"
         /> -->
 
+        
         <l-image-overlay v-for="(data, key) in maps" v-bind:key="key" :url="data.url" :bounds="data.bounds" v-if="currentMap == key"/>
-        <l-marker
-          v-for="(point, index) in points"
-          :key="point.name"
-          :lat-lng="point.latlng"
-          :draggable="true"
-          :icon="checkTypes[point.type]"
-          v-on:update:latLng="updateLatLng($event, point.name, index)"
-          v-if="point.map == currentMap && checkVisibility[point.type]"
-        >
-          <l-popup :content="'<h3>' + point.name + '</h3>'" />
-        </l-marker>
+        <!-- <div> -->
+          <l-marker
+            v-for="(point, index) in points"
+            :key="point.name"
+            :lat-lng="point.latlng"
+            :draggable="false"
+            :icon="checkTypes[point.type]"
+            v-on:update:latLng="updateLatLng($event, point.name, index)"
+            v-if="point.map == currentMap && checkVisibility[point.type]"
+          >
+            <l-popup :content="'<h3>' + point.name + '</h3>'" />
+            
+          </l-marker>
+          <!-- <draggable
+            :list="plando.locations"
+            group="locations"
+            >
+            <div style="width: 24px; height: 24px; background: purple;"/>
+          </draggable> -->
+        <!-- </div> -->
       </l-map>
     </div>
 
@@ -56,18 +66,19 @@
               <div class='setting-option' :class="{fullWidth: setting.type == 'SearchBox'}" v-for="setting in section.settings"  v-if="setting.text != 'Randomize Main Rule Settings'">
                 <span>{{setting.text}}</span>
 
-                <select v-model="plando['Settings'][setting.name]" v-if="setting.type == 'Combobox'">
+                <select v-model="plando['settings'][setting.name]" v-if="setting.type == 'Combobox'">
                   <option v-for="option in setting.options" :value="option.name">
                     {{option.text}}
                   </option>
                 </select>
-                <input v-model="plando['Settings'][setting.name]" 
+                <input v-model="plando['settings'][setting.name]" 
                 v-else-if="setting.type == 'Checkbutton'"
                 type="checkbox"
                 />
-                <div v-else-if="setting.type == 'Scale'">
-                  <span>{{plando['Settings'][setting.name]}}</span>
-                  <vue-slider v-model="plando['Settings'][setting.name]"
+                <div class="slider" v-else-if="setting.type == 'Scale'">
+                  <!-- <span>{{plando['settings'][setting.name]}}</span> -->
+                  <input v-model.number="plando['settings'][setting.name]" type="number" :min="setting.min" :max="setting.max"/>
+                  <vue-slider v-model="plando['settings'][setting.name]"
                   direction="ltr"
                   :min="setting.min"
                   :max="setting.max"
@@ -77,21 +88,43 @@
                 </div>
                 <div class="search-box" v-else-if="setting.type == 'SearchBox'">
                   <div class="search-box-draggable">
-                    <draggable @change="log" class="draggable" :list="settings[1]['sections'][index]['settings'][0]['options']" :group="setting.name">
+                    <draggable class="draggable" :list="settings[1]['sections'][index]['settings'][0]['options']" :group="setting.name">
                       <div v-for="location in settings[1]['sections'][index]['settings'][0]['options']" :key="location.name">
                         {{location.text}}
                       </div>
                     </draggable>
                   </div>
                   <div class="search-box-draggable">
-                    <draggable @add="downloadPlando" class="draggable" :list="plando['Settings'][setting.name]" :group="setting.name">
-                      <div v-for="location in plando['Settings'][setting.name]" :key="location.name">
+                    <draggable @add="downloadPlando" class="draggable" :list="plando['settings'][setting.name]" :group="setting.name">
+                      <div v-for="location in plando['settings'][setting.name]" :key="location.name">
                         {{location.text}}
                       </div>
                     </draggable>
                   </div>
                 </div>
                 <div v-else style="color: red;">ERROR</div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='main-settings' v-if="pageChoice == 'Item Pool'">
+        <div class='setting-group'>
+          <h2>Item Pool</h2>
+          <div class='section-group'>
+            <div class='setting-option' v-for="(count, item) in plando.item_pool">
+                <span>{{item}}</span>
+                <div class="slider">
+                  <!-- <span>{{plando['item_pool'][item]}}</span> -->
+                  <input v-model.number="plando['item_pool'][item]" type="number" :min="0" :max="50"/>
+                  <vue-slider v-model="plando['item_pool'][item]"
+                  direction="ltr"
+                  :min="0"
+                  :max="50"
+                  width="100px"
+                  tooltip="none"
+                  value='0'/>
+                </div>
               </div>
           </div>
         </div>
@@ -122,7 +155,25 @@
     </div>
 
     <div class="item-pool">
-      
+      <div class="item-category" v-for="(data, key) in plando.item_list" v-if="data.category != 'Unused'" :key='data.category'>
+        <div style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
+          <h2 style="margin-block-start: 0.5em; margin-block-end: 0.5em">{{data.category}}</h2>
+          <span style="text-align: right;">{{hover[data.category]}}</span>
+        </div>
+        <!-- <div style="display: flex; flex-flow: wrap; border-bottom: 2px solid black; padding-bottom: 5px"> -->
+          <draggable
+          :list="data.items"
+          :sort='false'
+          :group="{name: 'locations', pull: 'clone', put: false}"
+          class="item-div" v-for="name in data.items" :key="name" 
+          >
+            <!-- <div class="item-div" v-for="name in data.items" :key="name" @mouseover="updateTooltip(data.category, name, true)" @mouseleave="updateTooltip(data.category, name, false)"> -->
+                <img :src="'./Icons/Item_Pool/' + name + '.png'" alt="" @mouseover="updateTooltip(data.category, name, true)" @mouseleave="updateTooltip(data.category, name, false)" />
+              <!-- <span>{{name}}</span> -->
+            <!-- </div> -->
+          </draggable>
+        <!-- </div> -->
+      </div>
     </div>
 
     <!-- <div class="point-maker">
@@ -134,7 +185,8 @@
 </template>
 
 <script>
-import { CRS, icon } from "leaflet";
+import Vue from 'vue'
+import { CRS, icon, divIcon } from "leaflet";
 import { LMap, LImageOverlay, LMarker, LPopup, LPolyline } from "vue2-leaflet";
 import VueSlider from 'vue-slider-component'
 import 'vue-slider-component/theme/antd.css'
@@ -145,6 +197,30 @@ import InProgress from './in-progress.json'
 import SettingsList from './settings_list.json'
 import Plando from './Plando.json'
 // console.log(JSON.stringify(Locations))
+
+// var InnerDraggable = Vue.extend({
+//   template: '<span></span>'
+// })
+
+var InnerDraggable = () => {
+  let el = Vue.compile('<draggable :group="{name: \'locations\'}"></draggable>')
+  el = new Vue({
+    components: {
+      draggable
+    },
+    render: el.render,
+    staticRenderFns: el.staticRenderFns
+  }).$mount()
+  return el
+}
+
+console.log(InnerDraggable())
+
+console.log(draggable)
+
+// console.log(new InnerDraggable().$mount().$el.outerHTML)
+
+
 
 export default {
   components: {
@@ -158,17 +234,17 @@ export default {
   },
   methods: {
     handleClick(event) {
-      console.log(this.$refs.map)
-      this.lastLatLng = [event.latlng.lat, event.latlng.lng]
-      this.points.push({
-        name: this.locations[this.locCount].name,
-        type: this.locations[this.locCount].type,
-        map: this.currentMap,
-        latlng: [event.latlng['lat'], event.latlng['lng']],
-        // lng: event.latlng['lng'], 
-        // lat: event.latlng['lat']
-        })
-      // console.log(this.points)
+      // console.log(this.$refs.map)
+      // this.lastLatLng = [event.latlng.lat, event.latlng.lng]
+      // this.points.push({
+      //   name: this.locations[this.locCount].name,
+      //   type: this.locations[this.locCount].type,
+      //   map: this.currentMap,
+      //   latlng: [event.latlng['lat'], event.latlng['lng']],
+      //   // lng: event.latlng['lng'], 
+      //   // lat: event.latlng['lat']
+      //   })
+      // // console.log(this.points)
     },
     updateLatLng(event, name, index){
       // console.log(event, name)
@@ -197,6 +273,13 @@ export default {
       // TODO: Remember to parse through plando.Settings.allowed_tricks and plando.Settings.disabled_locations
       console.log(event)
       console.log(this)
+    },
+    updateTooltip(category, name, add){
+      if (add){
+        this.$set(this.hover, category, name)
+      } else {
+        this.$set(this.hover, category, "")
+      }
     }
   },
   data() {
@@ -204,6 +287,7 @@ export default {
       lastLatLng: null,
       plando: Plando,
       settings: SettingsList.settingsArray.slice(1,4),
+      hover: {},
       // url: "./Maps/Overworld.png",
       // bounds: [[-26.5, -25], [1021.5, 1023]],
       bounds: [[0, 0], [1000, 1000]],
@@ -220,15 +304,9 @@ export default {
         "Song": icon({ iconUrl: "./Icons/Song.png", iconSize: [24, 24], iconAnchor: [12, 12]}),
         "NPC": icon({ iconUrl: "./Icons/NPC.png", iconSize: [24, 24], iconAnchor: [12, 12]}),
         "Collectable": icon({ iconUrl: "./Icons/Collectable.png", iconSize: [24, 24], iconAnchor: [12, 12]}),
-        // "Event": icon({ iconUrl: "./Icons/Forest.png", iconSize: [24, 24], iconAnchor: [12, 12]}),
-        // "Drop": icon({ iconUrl: "./Icons/Forest.png", iconSize: [24, 24], iconAnchor: [12, 12]}),
-        // "Boss": icon({ iconUrl: "./Icons/Forest.png", iconSize: [24, 24], iconAnchor: [12, 12]}),
         "BossHeart": icon({ iconUrl: "./Icons/BossHeart.png", iconSize: [24, 24], iconAnchor: [12, 12]}),
         "GS Token": icon({ iconUrl: "./Icons/GS Token.png", iconSize: [24, 24], iconAnchor: [12, 12]}),
-        // "Shop": icon({ iconUrl: "./Icons/Forest.png", iconSize: [24, 24], iconAnchor: [12, 12]}),
-        // "GrottoNPC": icon({ iconUrl: "./Icons/Forest.png", iconSize: [24, 24], iconAnchor: [12, 12]}),
-        // "GossipStone": icon({ iconUrl: "./Icons/Forest.png", iconSize: [24, 24], iconAnchor: [12, 12]}),
-        
+        // "Chest": divIcon({html: InnerDraggable().innerHTML})
       },
       checkVisibility: {
         "Chest": true,
@@ -296,6 +374,9 @@ export default {
     };
   },
   mounted() {
+    // const test = this;
+    // console.log(draggable);
+
     this.$refs.map.mapObject.setView([3630, 3930], -3);
     window.addEventListener('keyup', (event) => {
       if (event.keyCode == 32) {
@@ -431,6 +512,50 @@ export default {
     user-select: none;
   }
 
+  .slider {
+    display: flex;
+    margin-right: 1vw;
+    width: 40%;
+  }
+
+  .slider input{
+    width: 45%;
+    margin-right: 10px;
+  }
+
+  .vue-slider {
+    width: 200px!important;
+  }
+
+  .vue-slider-rail {
+    background-color: #A0A0A0;
+  }
+
+  .vue-slider:hover .vue-slider-rail {
+    background-color: #B0B0B0;
+  }
+
+  .vue-slider-dot {
+
+  }
+
+  .vue-slider-dot-handle {
+    background-color: #101010;
+    border-color: #505050;
+  }
+
+  .vue-slider:hover .vue-slider-dot-handle {
+    border-color: #808080;
+  }
+
+  .vue-slider-process {
+    background-color: #3A3A3A;
+  }
+
+  .vue-slider:hover .vue-slider-process {
+    background-color: #5A5A5A;
+  }
+
   .legendButton {
     position: absolute;
     top: 0;
@@ -552,10 +677,40 @@ export default {
     position: absolute;
     left: 0;
     top: 0;
-    background-color: red;
+    background-color: #808080;
+    border-right: 4px solid white;
     width: 15vw;
     height: 100vh;
     z-index: 9999;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .item-category {
+    width: 90%;
+    display: flex;
+    flex-flow: wrap;
+  }
+
+  .item-div {
+    width: 24px;
+  }
+
+  .item-div span {
+    position: absolute;
+    visibility: hidden;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    z-index: 10000;
+    padding: 5px;
+  }
+
+  .item-div:hover span {
+    visibility: visible;
   }
 
   .item-pool button {

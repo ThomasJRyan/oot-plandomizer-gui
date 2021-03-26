@@ -3,3 +3,5 @@ module.exports = {
       devtool: 'source-map'
     }
   }
+  
+module.exports = { runtimeCompiler: true, }
